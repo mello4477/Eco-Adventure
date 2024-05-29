@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#game-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 50px auto;
+    border: 1px solid #000;
+}
+
+.trash-can {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+}
+
+#trash-can-recyclable {
+    top: 20px;
+    left: 20px;
+}
+
+#trash-can-compostable {
+    top: 20px;
+    left: 240px;
+}
+
+#trash-can-non-recyclable {
+    top: 20px;
+    left: 460px;
+}
+
+#item {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #ffcc00;
+    border: 1px solid #000;
+}
+
+#score {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+#error-count {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
